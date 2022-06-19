@@ -1,0 +1,158 @@
+body{
+  font-family: 'Oswald', sans-serif;
+}
+/*footer*/
+.footer-links {
+  list-style-type: none;
+}
+.footer-links > li > a {
+  list-style-type: none;
+  color: white;
+}
+.footer_prof{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  left: 0px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  left: 0px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+}
+/*home*/
+
+.heading {
+  border: 2px solid black;
+  font-size: 4rem;
+  font-weight: 900;
+  margin: auto;
+  align-items: center;
+}
+.miniheading {
+  border: 2px solid black;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: auto;
+  align-items: center;
+}
+.register_login {
+  border: 2px solid black;
+  margin-top: 40px;
+  margin-left: 40%;
+  margin-right: 40%;
+  background: rgb(150, 149, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(92, 92, 92, 0.966) 8%,
+    rgb(252, 255, 254) 59%
+  );
+}
+.home_content {
+  border: 2px solid black;
+  margin-top: 80px;
+}
+.clip {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.image {
+  background-image: url('https://picsum.photos/200/300/?blur=2');
+  background-size: cover;
+  background-position: center;
+}
+
+/*forms-in-general*/
+form {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  width: inherit;
+}
+form > input,
+form > select {
+  width: 400px;
+  margin: auto;
+}
+input[type='checkbox'] {
+  margin-left: 125px;
+}
+form > span {
+  margin-left: 40px;
+}
+/*login*/
+.login-form {
+  height: 180px;
+
+  width: 500px;
+  border: 2px solid black;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+/*register*/
+.register-form {
+  height: auto;
+
+  width: 500px;
+  border: 2px solid black;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+/*navbar*/
+.options {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.options span{
+  margin-left: 80%;
+  cursor: pointer;
+}
+/*cardCompoment*/
+.CardComponent{
+  height: 500px;
+  width: 400px;
+  margin:20px;
+  border-radius:30px;
+}
+.CardComponentImage{
+  height: 350px;
+  width: 400px;
+}
+.CardComponentImage>img{
+  height: inherit;
+  width: inherit;
+}
+.CardHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.CardComponentTitle{
+  background-color: darkgray;
+}
+.CardComponent:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#RegisterBtn{
+  margin-left: 200px;
+}
